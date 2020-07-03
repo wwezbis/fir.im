@@ -1,0 +1,17 @@
+apache环境伪静态：
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ https://你的域名/app\.php/$1 [L]
+
+
+ngix环境伪静态：
+if (!-d $request_filename){
+set $rule_0 1$rule_0;
+}
+if (!-f $request_filename){
+set $rule_0 2$rule_0;
+}
+if ($rule_0 = "21"){
+rewrite ^/([a-z0-9A-Z]+)$ /app.php/$1 last;
+}

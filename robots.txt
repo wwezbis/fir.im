@@ -1,0 +1,11 @@
+#
+# robots.txt for EarCMS
+#
+
+User-agent: *
+Disallow: /data/
+Disallow: /source/
+Disallow: /static/
+Disallow: /admin.php
+Disallow: /install.php
+Disallow: /plugin.php

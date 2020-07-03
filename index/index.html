@@ -1,0 +1,520 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>锋米 - 免费应用内测托管平台|APP应用分发|IOS分发|Android分发</title>
+    <meta name="keywords" content="APP内测,APP内测平台,APP内测托管平台,内测分发,免费托管,app分发,免费安装,beta测试,ipa,apk,安卓,苹果应用,二维码下载,UDID,iOS内测,Android内测,beta test,app,锋米">
+    <meta name="description" content="锋米 - 免费为您提供APP应用内测、应用托管、内测分发、兼容测试等服务,为客户提供APP内测托管平台和免费的应用下载分发渠道!">    
+    <link rel="stylesheet" type="text/css" href="https://fmisite.com/index/css/component.css">
+    <link rel="stylesheet" type="text/css" href="https://fmisite.com/index/css/new-layout.css">
+    <link rel="stylesheet" type="text/css" href="https://fmisite.com/index/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fmisite.com/index/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fmisite.com/index/css/new-index.css">
+
+    <script type="text/javascript">
+
+        var allowsize = ;
+
+        var uploadedsize = ;
+
+        var singlesize = ;
+
+        var uptoken = '';
+
+        var qndomain = '';
+
+        var uptype = ;
+
+        var tianshu = ;
+
+        var flash_swf_url = "http://darboy.cn/images/Moxie.swf";
+
+        var silverlight_xap_url = "http://darboy.cn/images/Moxie.xap";
+
+        var gettoken = "http://darboy.cn/index/gettoken.html";
+
+        var bdupload = "http://darboy.cn/index/uploadbd.html";
+
+        var upload = "http://darboy.cn/index/upload.html";
+
+    </script>
+
+    <script type="text/javascript" src="https://fmisite.com/index/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="https://fmisite.com/index/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://fmisite.com/index/js/jszip.min.js"></script>
+    <script type="text/javascript" src="https://fmisite.com/index/js/base64.min.js"></script>
+    <script type="text/javascript" src="https://fmisite.com/index/js/common.js"></script>
+
+
+</head>
+<body>
+<!-- 手机端未登录 start -->
+<div class="hamburger">
+<div class="hamburger-bg"></div>
+    <div class="mobile-sidebar">
+         <!-- 未登录样式 -->
+        <div class="mobile-member">
+               <a href="javascript:;" class="bor1 i-login">登录</a>
+               <a href="javascript:;" class="register-btn">注册</a>
+         </div>
+                    <!-- 登录后样式 end -->
+            <ul>
+                <li><a href="/Index/index.html" ><i class="fa fa-paper-plane-o"></i>发布</a></li>
+                <li><a href="/Index/listinfo.html"><i class="fa fa-folder-o"></i>防屏蔽链接</a></li>
+                <li><a href="/Member/combo.html"><i class="fa fa-money"></i>套餐</a></li>
+                <li><a href="https://weidian.com/item.html?itemID=2962317013&wfr=c&ifr=itemdetail"><i class="fa fa-share-alt"></i>APP封装</a></li>
+                <li><a href="http://weidian.com/i/2962317013?wfr=c&ifr=itemdetail"><i class="fa fa-apple"></i>苹果证书签名</a></li>
+                <li><a href="http://weidian.com/i/2962317013?wfr=c&ifr=itemdetail"></i>苹果上架加速</a></li>       
+                <li><a  href="http://wpa.qq.com/msgrd?v=3&uin=2962317013&site=qq&menu=yes"><i class="fa fa-file-text-o"></i>我的客服</a></li>
+            </ul>
+
+    </div>
+</div>
+<!-- 手机端未登录 end -->
+<!-- 头部导航 -->
+<div class="header container-fluid">
+    <a href="/Index/index.html" ><img src="https://fmisite.com/index/images/logo_nav.png" alt="" class="logo"></a>
+    <ul class="nav">
+        <li  class="active"><a href="/Index/index.html">发布</a></li>
+        <li><a href="/Index/listinfo.html">防屏蔽链接</a></li>
+        <li><a href="/Member/combo.html">套餐</a></li>
+        <li class="serve-trigger"><a href="javascript:;">服务<i class="fa fa-angle-down"></i></a>
+             <div class="nav-down">
+                 <ul>
+                     <li><a href="https://weidian.com/item.html?itemID=2230258110&wfr=c&ifr=itemdetail">APP封装</a></li>
+                     <li><a href="http://weidian.com/i/2962317013?wfr=c&ifr=itemdetail">苹果证书签名</a></li>
+                     <li><a href="http://weidian.com/i/2962317013?wfr=c&ifr=itemdetail">苹果上架加速</a></li>
+                     <li><a href="http://wpa.qq.com/msgrd?v=3&uin=229071702&site=qq&menu=yes">联系客服</a></li>
+                 </ul>
+             </div>
+        </li>
+    </ul>
+    <a href="javascript:;" class="hamburger-btn"><img src="https://fmisite.com/index/images/index-hbtn_01.png" alt=""></a>
+    <div class="member">
+            <a href="javascript:;" class="on mr18 i-login">登录</a>
+            <a href="javascript:;" class="on mr18 i-login">注册</a>
+        </div>
+            <div class="clear"></div>
+</div>
+
+
+
+
+
+
+
+
+<style type="text/css">
+     .header{padding: 36px 15px 0 15px;width: 100%;}
+      @media(max-width:1200px){
+     .header{width: 100%;}
+       }
+       @media (max-width:768px) {
+         .serve{height: auto;}
+    .serve .serve-content{padding:0 10px;}
+    .serve .serve-content li{padding: 0 10px;}
+       }
+</style>
+
+
+
+
+
+<!-- banner -->
+<div class="banner container-fluid">
+
+    <h1>打造移动互联网技术第一品牌</h1>
+    <span>
+        <a href="">内测应用</a>
+        <a href="">仅需两步</a>
+    </span>
+      <p>七牛CDN加速，每天免费高速下载，下载地址自定义，永久唯一</p>
+    <div class="">
+        <a href="javascript:;" class="btn-uploading i-login">上传应用</a>
+    </div>
+
+</div>
+<!-- 提供的服务 -->
+<div class="serve">
+      <h2>提供服务</h2>
+      <ul class="row serve-content">
+          <li class="col-sm-4 col-xs-12">
+              <div class="plate">
+                    <div class="plate-top">
+                        <img src="https://fmisite.com/index/images/new-index-pic_03.png" alt="">
+                        <h3>自定义下载页面</h3>
+                    </div>
+                    <div class="plate-bot">
+                        <p>微信、QQ防屏蔽链接技术，一个推广链接可永久使用</p>
+                    </div>
+              </div>
+          </li>
+          <li class="col-sm-4 col-xs-12">
+                <div class="plate">
+                    <div class="plate-top">
+                        <img src="https://fmisite.com/index/images/new-index-pic_06.png" alt="">
+                        <h3>防屏蔽</h3>
+                    </div>
+                    <div class="plate-bot">
+                            <p>微信、QQ防屏蔽链接技术，一个推广链接可永久使用</p>
+                    </div>
+                </div>
+          </li>
+          <li class="col-sm-4 col-xs-12">
+                <div class="plate">
+                    <div class="plate-top">
+                        <img src="https://fmisite.com/index/images/new-index-pic_09.png" alt="">
+                        <h3>每天免费</h3>
+                    </div>
+                    <div class="plate-bot">
+                            <p>微信、QQ防屏蔽链接技术，一个推广链接可永久使用</p>
+                    </div>
+                </div>
+          </li>
+      </ul>
+</div>
+<!-- 专家测试 -->
+<div class="test">
+     <h2>专家测试</h2>
+     <p class="test-intro">专业解决移动应用测试和应用上线问题，用专业的角度和细致的排查为App的测试上线保驾护航</p>
+    <ul class="test-bot row hi-icon-wrap hi-icon-effect-8">
+        <li class="col-md-4 col-xs-6">
+            <div class="test-margin">
+            <a href="javascript:;" class="hi-icon"><img src="https://fmisite.com/index/images/tubiao_03.png" alt=""></a>
+            <div class="explain">
+                <h4>兼容性测试</h4>
+                <p>适配市场99%以上主流机型</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        </li>
+        <li class="col-md-4 col-xs-6">
+            <div class="test-margin">
+            <a href="javascript:;" class="hi-icon"><img src="https://fmisite.com/index/images/tubiao_05.png" alt=""></a>
+            <div class="explain">
+                <h4>Bug探索测试</h4>
+                <p>深度挖掘细分模块功能性测试</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        </li>
+        <li class="col-md-4 col-xs-6">
+            <div class="test-margin">
+            <a href="javascript:;" class="hi-icon"><img src="https://fmisite.com/index/images/tubiao_07.png" alt=""></a>
+            <div class="explain">
+                <h4>安全性测试</h4>
+                <p>市场最权威漏洞库进行对比</p>
+            </div>
+            <div class="clear"></div>
+            </div>
+        </li>
+        <li class="col-md-4 col-xs-6">
+            <div class="test-margin">
+            <a href="javascript:;" class="hi-icon"><img src="https://fmisite.com/index/images/tubiao_12.png" alt=""></a>
+            <div class="explain">
+                <h4>IOS加速审核</h4>
+                <p>最快2小时可通过App Store审核</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        </li>
+        <li class="col-md-4 col-xs-6">
+            <div class="test-margin">
+            <a href="javascript:;" class="hi-icon"><img src="https://fmisite.com/index/images/tubiao_15.png" alt=""></a>
+            <div class="explain">
+                <h4>iOS上线预审</h4>
+                <p>对App Store 拒绝上架说不</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        </li>
+        <li class="col-md-4 col-xs-6">
+            <div class="test-margin">
+            <a href="javascript:;" class="hi-icon"><img src="https://fmisite.com/index/images/tubiao_17.png" alt=""></a>
+            <div class="explain">
+                <h4>App Store视频制作</h4>
+                <p>给产品一个动人心魄的宣传</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        </li>
+    </ul>
+</div>
+<!-- 合作伙伴 -->
+<div class="partner">
+    <h2>合作伙伴</h2>
+    <ul class="row">
+            <li class="col-md-2 col-sm-4 col-xs-6"><img src="https://fmisite.com/index/images/partner_03.png" alt=""></li>
+            <li class="col-md-2 col-sm-4 col-xs-6"><img src="https://fmisite.com/index/images/partner_04.png" alt=""></li>
+            <li class="col-md-2 col-sm-4 col-xs-6"><img src="https://fmisite.com/index/images/partner_05.png" alt=""></li>
+            <li class="col-md-2 col-sm-4 col-xs-6"><img src="https://fmisite.com/index/images/partner_06.png" alt=""></li>
+            <li class="col-md-2 col-sm-4 col-xs-6"><img src="https://fmisite.com/index/images/partner_07.png" alt=""></li>
+            <li class="col-md-2 col-sm-4 col-xs-6"><img src="https://fmisite.com/index/images/partner_08.png" alt=""></li>
+            <li class="col-md-2 col-sm-4 col-xs-6"><img src="https://fmisite.com/index/images/partner_10.png" alt=""></li>
+            <li class="col-md-2 col-sm-4 col-xs-6"><img src="https://fmisite.com/index/images/partner_11.png" alt=""></li>
+            <li class="col-md-2 col-sm-4 col-xs-6"><img src="https://fmisite.com/index/images/partner_12.png" alt=""></li>
+            <li class="col-md-2 col-sm-4 col-xs-6"><img src="https://fmisite.com/index/images/partner_13.png" alt=""></li>
+            <li class="col-md-2 col-sm-4 col-xs-6"><img src="https://fmisite.com/index/images/partner_14.png" alt=""></li>
+            <li class="col-md-2 col-sm-4 col-xs-6"><img src="https://fmisite.com/index/images/partner_15.png" alt=""></li>
+        </ul>
+</div>
+<!-- 底部版权 -->
+<style type="text/css">
+.footer p {
+	color: #000;
+}
+</style>
+
+<div class="footer">
+    <ul class="row">
+        <li class="col-lg-4">
+                Copyright @ 2018-2019 
+        </li>
+        <li class="col-lg-4">
+                联系QQ:2962317013
+        </li>
+        <li class="col-lg-4">
+                邮箱：2962317013@qq.com
+        </li>
+    </ul>
+  <ul class="row">
+        <li class="col-lg-4">
+                锋米免费应用分发平台
+        </li>
+
+      <li class="col-lg-4">
+                皖ICP备18010148号</li>
+        <li class="col-lg-4">
+                网址：<a href="https://www.fmisite.com" class="d-wangzhi">https://www.fmisite.com</a>
+        </li>
+    </ul>
+  <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+  <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;锋米内测分发托管服务为第三方应用提供应用托管、反馈收集等服务。应用内容均来源于第三方产品，仅为用户提供下载支持，不涉及任何人工编辑和整理，也不对任何来源于第三方的内容（包括但不限于安装包安全、信息描述、应用截图）承担责任，用户可根据描述场景谨慎选择下载试用。任何公司、产品或者个人认为龙赢云分发涉嫌侵犯您的版权或应用权，您应该及时向我们提供举报声明、书面权利通知，并提供身份证明、权属证明及侵权情况等投诉材料。我们将依法进行处理。应用下载者与应用上传者如发生纠纷，请自行与上传者协商处理，协商无果请到相关部门进行投诉，或者拨打110警方介入，本平台不承担责任。</p>
+</div>
+<!-- 背景蒙板 -->
+<div class="mask-bg">
+    <!-- 登录弹窗 -->
+      <div class="login">
+           <!-- 关闭按钮 -->
+           <div class="index-close">
+                <a href="javascript:;">
+                    <img src="https://fmisite.com/index/images/index-close_03.png" alt="">
+                </a>
+           </div>
+          <form  id="form" method="POST" action="/login/login.html">
+           <div class="login-input">
+               <h4>帐号密码登录</h4>
+               <input type="text" name="username" placeholder="请输入您的邮箱／手机号" >
+               <input type="password"  name="password"  placeholder="请输入密码">
+               <button type="submit"  class="submit-btn">登录</button>
+           </div>
+          </form>
+           
+      </div>
+      <!-- 注册弹框 -->
+      <div class="register">
+            <!-- 关闭按钮 -->
+            <div class="index-close">
+                 <a href="javascript:;">
+                     <img src="https://fmisite.com/index/images/index-close_03.png" alt="">
+                 </a>
+            </div>
+
+            <div class="login-input">
+                <h4><a href="javascript:;" class="add-email on">用户邮箱注册</a><a href="javascript:;" class="add-tel">用户手机注册</a></h4>
+                <form method="post"   action="/login/reg.html" class="cut-email">
+                <div class="cut-email">
+                    <input type="text" name="username" id="username" placeholder="请输入您的邮箱">
+                    <div class="verify">
+                       <input type="text" id="checkcode" name="checkcode" placeholder="验证码">
+                       <a href="javascript:;" id="sendcode" onclick="sendcode22()"  class="gain">获取验证码</a>
+                    </div> 
+                     <input type="password" name="password" placeholder="密码">
+                     <input type="password" name="repassword" placeholder="确认密码">
+                </div>
+                <button type="submit"  class="submit-btn">确认注册</button>
+          </form>
+          </form>
+                <form method="post" action="/login/regphone.html"  class="cut-tel" style="display:none;" >
+                <div>
+                        <input type="text" name="phone" id="phone" placeholder="请输入您的手机">
+                        <div class="verify">
+                           <input type="text" i name="checkcode88" placeholder="验证码">
+                           <a href="javascript:;" id="sendcode88" onclick="sendcode8899()" class="gain">获取验证码</a>
+                        </div> 
+                         <input  type="password" name="password" placeholder="密码">
+                         <input type="password" name="repassword" placeholder="确认密码">
+                    </div>
+                    <button type="submit"  class="submit-btn">确认注册</button>
+                </form>
+            </div>
+
+            <div class="login-right">
+                <a href="http://wpa.qq.com/msgrd?v=3&uin=229071702&site=qq&menu=yes">忘了密码？ </a>|<a href="javascript:;" class="i-login">已有帐号，前去登录。</a>
+            </div>
+       </div>
+</div>
+<!-- 右侧飘窗 -->
+    <div class="asid_share" id="asid_share">
+                <div class="asid_share_box relative">
+                    <a href="/member/ticket.html"><img alt="提交工单" title="提交工单" class="adid_icon" src="https://fmisite.com/index/images/icon_say.png"></a>
+                </div>
+                <div class="asid_share_box relative">
+                    <a href="http://wpa.qq.com/msgrd?v=3&uin=2962317013&site=qq&menu=yes"><img alt="Q&nbsp;Q客&nbsp;服" title="Q&nbsp;Q客&nbsp;服" class="adid_icon" src="https://fmisite.com/index/images/icon_help.png"></a>
+                </div>
+                <div class="asid_share_box relative">
+                    <a href="#"><img alt="扫二微码" title="扫二微码" class="adid_icon" src="https://fmisite.com/index/images/icon_sweep.png"></a>
+                    <div class="asid_share_triangle" style="display:none;">
+                        <em class="border_sj">&#9670;</em>
+                        <span class="con_sj">&#9670;</span>
+                </div>
+                    <div class="asid_sha_layer" style="width:250px;display:none;">
+                            <p>QQ客服:2962317013</p>
+                        <p class="pb6"><b>充值问题联系客服</b></p>
+                    </div>
+                </div>
+                <div class="asid_share_box" style="position:relative;">
+                <div class="asid_share_box relative" style="display:none;position:absolute;top:0;left:0;">
+                    <a href="#"><img alt="返回顶部" title="返回顶部" class="adid_icon" src="https://fmisite.com/index/images/icon_back.png"></a>
+                </div>
+            </div>
+</div>
+</body>
+</html>
+<script src="https://fmisite.com/index/js/jquery-2.1.1.min.js"></script>
+<script src="https://fmisite.com/index/js/boot.min.js"></script>
+<!--[if lt IE 9]>
+      <script src="/Application/Home/View//Public/static/js/html5shiv.min.js"></script>
+      <script src="/Application/Home/View//Public/static/js/respond.min.js"></script>
+<![endif]-->
+<script src="https://fmisite.com/index/js/jquery-ui.min.js"></script>
+<script src="https://fmisite.com/index/js/new-buywindow.js"></script>
+<script src="https://fmisite.com/index/js/new-member.js"></script>
+<SCRIPT LANGUAGE="JavaScript">
+    function sendcode22(){
+        $("#sendcode").attr("disabled",true);
+        var username = $('#username').val();
+
+        if(username){
+            $.ajax({
+                url: '/index.php/login/sendemailcode22',
+                type: 'post',
+                data: {username : username},
+                dataType: 'json',
+                beforeSend: function() {
+                },
+                complete: function() {
+                },
+                success: function(json) {
+                    if(json['code']==1){
+                        $("#sendcode").html("已发送,前往邮箱查看");
+                        return false;
+                    }else{
+                        alert(json['msg']);
+                        $("#sendcode").attr("disabled",false);
+                        return false;
+                    }
+                }
+            });
+        }else{
+            alert("请输入邮箱");
+            $("#sendcode").attr("disabled",false);
+            return false;
+        }
+
+    }
+    var countdown=60;
+    function settime() {
+        if (countdown == 0) {
+            $("#sendcode88").attr("disabled",false);
+            $("#sendcode88").html("发送验证码");
+            countdown = 60;
+            return;
+        } else {
+            $("#sendcode88").attr("disabled",true);
+            $("#sendcode88").html("重新发送(" + countdown + ")");
+            countdown--;
+        }
+        setTimeout(function() {
+                settime() }
+            ,1000)
+    }
+
+    function sendcode8899(){
+        $("#sendcode88").attr("disabled",true);
+        var phone = $('#phone').val();
+
+        if(phone){
+            $.ajax({
+                url: '/index.php/login/sendemailcode88',
+                type: 'post',
+                data: {phone : phone},
+                dataType: 'json',
+                beforeSend: function() {
+                },
+                complete: function() {
+                },
+                success: function(json) {
+                    if(json['code']==1){
+                        settime();
+                        //$("#sendcode88").html("已发送,请注意查收");
+                        return false;
+                    }else{
+                        alert(json['msg']);
+                        $("#sendcode88").attr("disabled",false);
+                        return false;
+                    }
+                }
+            });
+        }else{
+            alert("请输入手机号码");
+            $("#sendcode88").attr("disabled",false);
+            return false;
+        }
+
+    }
+
+</SCRIPT>
+<script>
+	$(function(){
+		var aboutWidth = $(".about").width();
+		$(".process-timeline").width(aboutWidth);
+		var lastRightSpeed = 40; //控制拖动到最右边点是否对准时间刻度线上
+		var processtimelineW = $(".process-timeline").width();
+		var processrowLength = $(".process-body").find('.process-row').length;
+		var processbodyNumber = processrowLength*150;
+		$(".process-body").css({"width":processbodyNumber});
+		if(processrowLength < 5) 
+		{
+			$("#draggable").draggable('disable');
+			return;
+		}
+		$("#draggable").draggable({
+			cursor: "move",
+			axis: 'x',
+			grid: [50, 20],
+			stop: function(event, ui){
+				var FleftNumber = parseInt($("#draggable").css("left"));
+				if (FleftNumber > 0) {
+					$("#draggable").animate({"left": 0}, 500);
+					return;
+				};
+				var leftNumber = Math.abs(FleftNumber);
+				leftNumber = leftNumber + processtimelineW;
+				if (leftNumber > processbodyNumber) 
+				{
+					leftNumber = processbodyNumber;
+					$("#draggable").animate({"left": -(leftNumber-processtimelineW + lastRightSpeed)}, 500);
+				}
+			}
+		});
+
+
+ 
+});
+</script>
