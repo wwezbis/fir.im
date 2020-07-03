@@ -83,7 +83,7 @@
 						<div>￥10</div>
 					</div>
 					<div class="package-action">
-						<button class="btn" onclick="javascript:alert('联系管理员购买，QQ：424106826');">购买</button>
+						<button class="btn" onclick="javascript:alert('<?php echo IN_KEFU; ?>');">购买</button>
 					</div>
 				</div>
 				<div class="package-card active">
@@ -98,7 +98,7 @@
 						<div>￥50</div>
 					</div>
 					<div class="package-action">
-						<button class="btn" onclick="javascript:alert('联系管理员购买，QQ：424106826');">购买</button>
+						<button class="btn" onclick="javascript:alert('<?php echo IN_KEFU; ?>');">购买</button>
 					</div>
 				</div>
 				<div class="package-card">
@@ -110,7 +110,7 @@
 						<div>￥100</div>
 					</div>
 					<div class="package-action">
-						<button class="btn" onclick="javascript:alert('联系管理员购买，QQ：424106826');">购买</button>
+						<button class="btn" onclick="javascript:alert('<?php echo IN_KEFU; ?>');">购买</button>
                    
 					</div>
 				</div>

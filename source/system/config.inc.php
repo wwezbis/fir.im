@@ -16,6 +16,7 @@ define('IN_NAME', 'app分发');
 define('IN_KEYWORDS', 'apk,android,ipa,ios,iphone,ipad,app封装,应用分发,企业签名');
 define('IN_DESCRIPTION', 'app分发为各行业提供应用分发托管服务！');
 define('IN_ICP', '备案中...');
+define('IN_KEFU', '客服中心:123456');
 define('IN_MAIL', 'web@admin.com');
 define('IN_MAILOPEN', '0');
 define('IN_MAILSMTP', 'smtp.exmail.qq.com');
@@ -48,4 +49,5 @@ define('IN_REMOTESK', '');
 define('IN_REWRITE', '1');
 define('IN_MOBILEPROVISION', '0');
 define('IN_EXT', '40*40|60*60|58*58|87*87|80*80|120*120|120*120|180*180|20*20|40*40|29*29|58*58|40*40|80*80|76*76|152*152|167*167');
+
 ?>
